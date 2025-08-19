@@ -1,8 +1,3 @@
----
-title: "EcoGridAI"
-author: "Srikar Kalle"
----
-
 # ⚡ EcoGridAI: Hybrid LSTM-Based Renewable Energy Forecasting and Grid Optimisation for Sustainable Power Management
 
 ---
