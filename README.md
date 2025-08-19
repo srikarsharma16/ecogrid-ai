@@ -29,12 +29,14 @@ EcoGridAI/
 ## Installation
 
 Clone the repository:
+```bash
   git clone https://github.com/srikarsharm16/EcoGridAI.git
   cd EcoGridAI
-
+```
 Install dependencies:
+```bash
   pip install -r requirements.txt
-
+```
 ## Report & Literature
 
 report/: Contains thesis drafts and final written report.
