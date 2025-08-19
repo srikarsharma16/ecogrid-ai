@@ -1,0 +1,142 @@
+locations:
+  - name: Dublin
+    lat: 53.3498
+    lon: -6.2603
+  - name: Cork
+    lat: 51.8985
+    lon: -8.4756
+  - name: Galway
+    lat: 53.2707
+    lon: -9.0568
+  - name: Limerick
+    lat: 52.6638
+    lon: -8.6267
+  - name: Waterford
+    lat: 52.2593
+    lon: -7.1101
+  - name: Kilkenny
+    lat: 52.6541
+    lon: -7.2448
+  - name: Wexford
+    lat: 52.3342
+    lon: -6.4628
+  - name: Kerry
+    lat: 52.1540
+    lon: -9.5665
+  - name: Mayo
+    lat: 53.7149
+    lon: -9.3032
+  - name: Clare
+    lat: 52.8705
+    lon: -8.9833
+  - name: Tipperary
+    lat: 52.4734
+    lon: -8.1550
+  - name: Offaly
+    lat: 53.2599
+    lon: -7.1525
+  - name: Westmeath
+    lat: 53.5339
+    lon: -7.3388
+  - name: Longford
+    lat: 53.7250
+    lon: -7.7984
+  - name: Leitrim
+    lat: 54.3208
+    lon: -7.8109
+  - name: Roscommon
+    lat: 53.7250
+    lon: -8.2174
+  - name: Louth
+    lat: 53.9078
+    lon: -6.6476
+  - name: Meath
+    lat: 53.5538
+    lon: -6.6578
+  - name: WestCork
+    lat: 51.6209
+    lon: -9.7162
+  - name: SouthTipperary
+    lat: 52.2938
+    lon: -7.4279
+  - name: Antrim_IE
+    lat: 54.6959
+    lon: -6.2159
+  - name: Down_IE
+    lat: 54.1749
+    lon: -5.5515
+  - name: Armagh_IE
+    lat: 54.3500
+    lon: -6.6500
+  - name: Fermanagh_IE
+    lat: 54.3471
+    lon: -7.6306
+  - name: Derry_IE
+    lat: 54.9966
+    lon: -7.3086
+  - name: Tyrone_IE
+    lat: 54.8200
+    lon: -7.4300
+  - name: Carlow
+    lat: 52.8364
+    lon: -6.9342
+  - name: Kildare
+    lat: 53.1599
+    lon: -6.9092
+  - name: Wicklow
+    lat: 53.0117
+    lon: -6.1175
+  - name: Cavan
+    lat: 53.9901
+    lon: -7.3600
+  - name: Monaghan
+    lat: 54.2496
+    lon: -6.9686
+  - name: Sligo
+    lat: 54.2776
+    lon: -8.4711
+
+
+start_date: "20100101"
+end_date: "20250630"
+
+parameters:
+  - ALLSKY_SFC_SW_DWN
+  - T2M
+  - WS2M
+  - PRECTOTCORR
+
+output_dir: "../data"
+
+api:
+  base_url: "https://power.larc.nasa.gov/api/temporal/daily/point"
+  community: "RE"
+  format: "JSON"
+  sleep_sec: 1
+
+
+tickers:
+  - FSLR
+  - SPWR
+  - ENPH
+  - SEDG
+  - NEE
+  - CL=F
+  - BZ=F
+  - NG=F
+  - COAL.AX
+  - XLE
+
+startDate: "2015-01-01"
+endDate: "2025-06-30"
+
+output:
+  filename: "energy_market_prices.csv"
+  output_dir: "../data"
+
+
+column_mapping:
+  T2M: temperature
+  ALLSKY_SFC_SW_DWN: solar_irradiance
+  WS2M: wind_speed
+  PRECTOTCORR: precipitation

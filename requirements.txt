@@ -1,0 +1,26 @@
+# Core Python utilities
+os
+glob
+time
+logging
+requests
+yaml
+
+# Data manipulation & analysis
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+
+# Statistics
+statsmodels
+
+# Machine Learning / Deep Learning
+scikit-learn
+tensorflow
+xgboost
+
+# Finance data
+yfinance
