@@ -38,10 +38,10 @@ Install dependencies:
   pip install -r requirements.txt
 ```
 ## Report & Literature
-
+```plaintext
 report/: Contains thesis drafts and final written report.
 Literature Review/: Summaries and annotated references.
-
+```
 ## Author
 Srikar Kalle
 MSc Data Science, SETU Carlow, Ireland
