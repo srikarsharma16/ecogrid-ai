@@ -29,11 +29,11 @@ EcoGridAI/
 ## Installation
 
 Clone the repository:
-git clone https://github.com/srikarsharm16/EcoGridAI.git
-cd EcoGridAI
+  git clone https://github.com/srikarsharm16/EcoGridAI.git
+  cd EcoGridAI
 
 Install dependencies:
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 ## Report & Literature
 
