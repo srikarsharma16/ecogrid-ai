@@ -30,7 +30,7 @@ EcoGridAI/
 
 Clone the repository:
 ```bash
-  [git clone https://github.com/srikarsharm16/EcoGridAI.git](https://github.com/srikarsharma16/ecogrid-ai.git)
+  [git clone https://github.com/srikarsharm16/EcoGridAI.git]
   cd EcoGridAI
 ```
 Install dependencies:
